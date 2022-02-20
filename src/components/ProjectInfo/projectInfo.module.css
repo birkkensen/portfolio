@@ -1,0 +1,27 @@
+.projectInfoWrapper {
+  margin: 70px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectInfoWrapper p {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .projectInfoWrapper {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .projectInfoWrapper p {
+    width: 33.333%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .projectInfoWrapper {
+    margin: 70px auto;
+    width: 80vw;
+    max-width: 1140px;
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Application task to Hyper Island",
+      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "year": 2021,
+      "languages": "HTML / CSS",
+      "linkToProject": "https://github.com/birkkensen/HyperIslandApplicationTask",
+      "coverImage": "/images/cover/application.png",
+      "objectFit": "cover",
+      "showcase": [
+        "/images/showcase/application-comp/home.png",
+        "/images/showcase/application-comp/article.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Playlist visualisation using the Spotify API",
+      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "year": 2021,
+      "languages": "HTML / CSS / Javascript (Node.js)",
+      "linkToProject": "https://github.com/birkkensen/playlist-visualisation",
+      "coverImage": "/images/cover/spotify.png",
+      "objectFit": "cover",
+      "showcase": [
+        "/images/showcase/spotify-comp/home.png",
+        "/images/showcase/spotify-comp/main.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Space Pong made using Phaser 3",
+      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "year": 2021,
+      "languages": "Javascript (Phaser 3)",
+      "linkToProject": "https://github.com/birkkensen/SpacePong",
+      "coverImage": "/images/cover/spacePong.png",
+      "objectFit": "cover",
+      "showcase": [
+        "/images/showcase/spacepong-comp/home.png",
+        "/images/showcase/spacepong-comp/playing2.png",
+        "/images/showcase/spacepong-comp/gameover.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Personal food blog using Wordpress API",
+      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "year": 2021,
+      "languages": "HTML / SCSS / Javascript",
+      "linkToProject": "https://github.com/birkkensen/RecipeBank",
+      "coverImage": "/images/cover/blog2.png",
+      "objectFit": "cover",
+      "showcase": [
+        "/images/showcase/blog-comp/home-min.png",
+        "/images/showcase/blog-comp/grid-min.png",
+        "/images/showcase/blog-comp/filter-min.png",
+        "/images/showcase/blog-comp/recept-min.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Radio using Sveriges Radios API",
+      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "year": 2022,
+      "languages": "HTML / CSS / Javascript (React)",
+      "linkToProject": "https://github.com/birkkensen/SR-radio-remake-but-in-react",
+      "coverImage": "/images/cover/radio.png",
+      "objectFit": "contain",
+      "showcase": [
+        "/images/showcase/radio-comp/homeDesk.png",
+        "/images/showcase/radio-comp/channelsDesk.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Endless runner game made using Phaser 3",
+      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "year": 2021,
+      "languages": "Javascript (Phaser 3)",
+      "linkToProject": "https://github.com/birkkensen/SpacePong",
+      "coverImage": "/images/cover/sauteur.png",
+      "objectFit": "cover",
+      "showcase": [
+        "/images/showcase/sauteur-comp/home.png",
+        "/images/showcase/sauteur-comp/playing.png",
+        "/images/showcase/sauteur-comp/gameover.png",
+        "/images/showcase/sauteur-comp/highscore.png"
+      ]
+    }
+  ]
+}

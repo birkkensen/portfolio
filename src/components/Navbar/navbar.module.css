@@ -1,0 +1,22 @@
+.navbar {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a h1 {
+  color: #000;
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
