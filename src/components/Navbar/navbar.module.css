@@ -23,6 +23,7 @@
 @media screen and (min-width: 1280px) {
   .navbar {
     width: 80vw;
+    max-width: 1140px;
     margin: 0 auto;
   }
 }
