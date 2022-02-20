@@ -14,6 +14,12 @@
   color: #000;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar {
+    margin: 0 40px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .navbar {
     width: 80vw;

@@ -6,7 +6,7 @@ const ContactLink = ({ name, color }) => {
     backgroundColor: color ? "#fff" : "#000",
   };
   return (
-    <a style={style} className={s.blackLink} href="mailto:birk.kensen@gmail.com">
+    <a className={s.regularLink} style={style} href="mailto:birk.kensen@gmail.com">
       {name}
     </a>
   );
