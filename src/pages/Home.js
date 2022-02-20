@@ -1,4 +1,4 @@
-import { Navbar, IntroSection, ProjectSection, Footer } from "../components";
+import { Navbar, IntroSection, ProjectSection, Footer, GoToTop } from "../components";
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <IntroSection />
       <ProjectSection />
       <Footer />
+      <GoToTop />
     </>
   );
 };

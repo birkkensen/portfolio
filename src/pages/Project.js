@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { Navbar, ProjectInfo, ProjectImages, Footer } from "../components";
+import { Navbar, ProjectInfo, ProjectImages, Footer, GoToTop } from "../components";
 import projects from "../projects.json";
 const Project = () => {
   const { id } = useParams();
@@ -24,6 +24,7 @@ const Project = () => {
         />
       )}
       <Footer />
+      <GoToTop />
     </>
   );
 };

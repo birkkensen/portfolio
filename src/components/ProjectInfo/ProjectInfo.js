@@ -1,7 +1,6 @@
 import React from "react";
 import s from "./projectInfo.module.css";
 const ProjectInfo = ({ name, year, languages, description, link }) => {
-  console.log(link);
   return (
     <section className={s.projectInfoWrapper}>
       <p>
@@ -16,7 +15,12 @@ const ProjectInfo = ({ name, year, languages, description, link }) => {
         <br />
         {languages}
         <br />
-        <a style={{ color: "#000" }} href={link}>
+        <a
+          style={{ color: "#2b52d0", fontWeight: "500" }}
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+        >
           Project on GitHub
         </a>
       </p>

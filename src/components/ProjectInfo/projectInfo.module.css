@@ -2,6 +2,7 @@
   margin: 70px 20px;
   display: flex;
   flex-direction: column;
+  max-width: 1140px;
 }
 
 .projectInfoWrapper p {
@@ -12,6 +13,7 @@
   .projectInfoWrapper {
     flex-wrap: wrap;
     flex-direction: row;
+    margin: 70px 40px;
   }
   .projectInfoWrapper p {
     width: 33.333%;
@@ -22,6 +24,5 @@
   .projectInfoWrapper {
     margin: 70px auto;
     width: 80vw;
-    max-width: 1140px;
   }
 }
