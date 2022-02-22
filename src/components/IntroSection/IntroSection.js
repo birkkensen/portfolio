@@ -39,7 +39,7 @@ const IntroText = () => {
 };
 
 const IntroImage = () => {
-  return <img className={s.image} src="/images/me/introImage.jpg" alt="Selfie" />;
+  return <img className={s.image} src="/images/me/me.JPG" alt="Selfie" />;
 };
 
 export default IntroSection;

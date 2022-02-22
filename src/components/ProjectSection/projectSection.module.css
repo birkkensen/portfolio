@@ -10,10 +10,22 @@
   font-size: 48px;
   margin-bottom: 24px;
   grid-column: 1 / -1;
+  color: #2c3e56;
+  transition: all 0.5s ease-in-out;
 }
 .linkToProject {
   -webkit-transform: translate3D(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  transition: all 0.5s ease-in-out;
+}
+.hidden {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.fadeIn {
+  transform: translateY(0px);
+  opacity: 1;
 }
 .overlayContainer {
   position: relative;
@@ -22,15 +34,16 @@
   border-radius: 16px;
   -webkit-transform: translate3D(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(44, 62, 86, 0.2), 0 6px 10px 0 rgba(44, 62, 86, 0.19);
 }
 
 .projectImage {
-  object-fit: contain;
   width: 100%;
   height: 250px;
   transition: transform 0.3s ease-in-out;
   background-color: #333;
 }
+
 .linkToProject:hover .projectImage {
   transform: scale(1.05);
 }

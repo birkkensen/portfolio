@@ -3,6 +3,7 @@ const ProjectImages = ({ arr, name, objectFit }) => {
   const imageCSS = {
     objectFit: objectFit,
   };
+
   return (
     <>
       {arr &&

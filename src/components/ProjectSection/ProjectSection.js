@@ -1,6 +1,7 @@
 import s from "./projectSection.module.css";
 import projects from "../../projects.json";
 import { Link } from "react-router-dom";
+import { useInView } from "react-intersection-observer";
 const ProjectSection = () => {
   return (
     <section className={s.wrapper}>
@@ -23,8 +24,12 @@ const ProjectSection = () => {
 export default ProjectSection;
 
 const Title = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.8,
+    triggerOnce: true,
+  });
   return (
-    <h2 className={s.title}>
+    <h2 ref={ref} className={`${s.title} ${inView ? s.fadeIn : s.hidden}`}>
       My learning process <br />
       so far
     </h2>
@@ -35,8 +40,17 @@ const Project = ({ id, name, image, objectFit }) => {
   const imageCSS = {
     objectFit: objectFit,
   };
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+    triggerOnce: true,
+  });
+
   return (
-    <Link className={s.linkToProject} to={`project/${id}`}>
+    <Link
+      ref={ref}
+      className={`${s.linkToProject} ${inView ? s.fadeIn : s.hidden}`}
+      to={`project/${id}`}
+    >
       <div className={s.overlayContainer}>
         <img className={s.projectImage} style={imageCSS} src={image} alt={name} />
         <div className={s.overlay}>

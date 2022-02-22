@@ -3,32 +3,33 @@ import s from "./projectInfo.module.css";
 const ProjectInfo = ({ name, year, languages, description, link }) => {
   return (
     <section className={s.projectInfoWrapper}>
-      <p>
-        —
-        <br />
-        {name}
-        <br />
-        {year}
-      </p>
-      <p>
-        —
-        <br />
-        {languages}
-        <br />
-        <a
-          style={{ color: "#2b52d0", fontWeight: "500" }}
-          href={link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Project on GitHub
-        </a>
-      </p>
-      <p>
-        —
-        <br />
-        {description}
-      </p>
+      <div>
+        <div className={s.line}></div>
+        <p>
+          {name}
+          <br />
+          {year}
+        </p>
+      </div>
+      <div>
+        <div className={s.line}></div>
+        <p>
+          {languages}
+          <br />
+          <a
+            style={{ color: "#2b52d0", fontWeight: "bold" }}
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Project on GitHub
+          </a>
+        </p>
+      </div>
+      <div>
+        <div className={s.line}></div>
+        <p>{description}</p>
+      </div>
     </section>
   );
 };

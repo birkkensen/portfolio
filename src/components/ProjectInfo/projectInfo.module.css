@@ -8,14 +8,20 @@
 .projectInfoWrapper p {
   margin-bottom: 20px;
 }
-
+.line {
+  height: 4px;
+  width: 20px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  background-color: rgb(44, 62, 86);
+}
 @media screen and (min-width: 768px) {
   .projectInfoWrapper {
     flex-wrap: wrap;
     flex-direction: row;
     margin: 70px 40px;
   }
-  .projectInfoWrapper p {
+  .projectInfoWrapper > div {
     width: 33.333%;
   }
 }

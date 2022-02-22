@@ -14,7 +14,7 @@ const ContactLink = ({ name, color }) => {
 
 const DownLoadLink = () => {
   return (
-    <a className={s.downLoadWrapper} href="/resources/resume.png" download>
+    <a className={s.downLoadWrapper} href="/resume/CV.Birk.pdf" download>
       <div className={s.downLoadLink}>Download CV</div>
       <div className={s.line}></div>
     </a>

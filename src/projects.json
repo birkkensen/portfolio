@@ -2,20 +2,6 @@
   "projects": [
     {
       "id": 1,
-      "name": "Application task to Hyper Island",
-      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
-      "year": 2021,
-      "languages": "HTML / CSS",
-      "linkToProject": "https://github.com/birkkensen/HyperIslandApplicationTask",
-      "coverImage": "/images/cover/application.png",
-      "objectFit": "cover",
-      "showcase": [
-        "/images/showcase/application-comp/home.png",
-        "/images/showcase/application-comp/article.png"
-      ]
-    },
-    {
-      "id": 2,
       "name": "Playlist visualisation using the Spotify API",
       "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
       "year": 2021,
@@ -29,7 +15,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Space Pong made using Phaser 3",
       "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
       "year": 2021,
@@ -44,7 +30,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Food blog using the Wordpress API",
       "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
       "year": 2021,
@@ -60,7 +46,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Radio using the Sveriges Radio API",
       "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
       "year": 2022,
@@ -74,7 +60,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Endless runner game made using Phaser 3",
       "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
       "year": 2021,
@@ -87,6 +73,20 @@
         "/images/showcase/sauteur-comp/playing.png",
         "/images/showcase/sauteur-comp/gameover.png",
         "/images/showcase/sauteur-comp/highscore.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Application task to Hyper Island",
+      "description": "This is the website I made when I applied to Hyper Island. ",
+      "year": 2021,
+      "languages": "HTML / CSS",
+      "linkToProject": "https://github.com/birkkensen/HyperIslandApplicationTask",
+      "coverImage": "/images/cover/application.png",
+      "objectFit": "cover",
+      "showcase": [
+        "/images/showcase/application-comp/home.png",
+        "/images/showcase/application-comp/article.png"
       ]
     }
   ]
