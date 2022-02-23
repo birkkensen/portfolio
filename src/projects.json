@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Playlist visualisation using the Spotify API",
-      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "description": "During one of our lessons, we had a guest lecturer from Spotify walking us through on how to work with their API to retrieve songs from a playlist and play samples of them. The website displays the album artwork, and when clicked it plays a sample of that song.",
       "year": 2021,
       "languages": "HTML / CSS / Javascript (Node.js)",
       "linkToProject": "https://github.com/birkkensen/playlist-visualisation",
@@ -16,10 +16,10 @@
     },
     {
       "id": 2,
-      "name": "Space Pong made using Phaser 3",
-      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "name": "Space Pong made using Phaser",
+      "description": "When we were working on creating a game using Phaser, we had a lecture where we created the classic game Pong with some updated graphics. We made it as a multiplayer game but I wanted to be able to play it alone, so afterwards I rewrote some of the code and created my own computer bot to play against.",
       "year": 2021,
-      "languages": "Javascript (Phaser 3)",
+      "languages": "Javascript (Phaser)",
       "linkToProject": "https://github.com/birkkensen/SpacePong",
       "coverImage": "/images/cover/spacePong.png",
       "objectFit": "cover",
@@ -32,7 +32,7 @@
     {
       "id": 3,
       "name": "Food blog using the Wordpress API",
-      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "description": "This was my first project at Hyper Island. I created a personal food blog using Wordpress as a CMS. Making it so I easily could add blog posts in the future, without having to open the project again.",
       "year": 2021,
       "languages": "HTML / SCSS / Javascript",
       "linkToProject": "https://github.com/birkkensen/RecipeBank",
@@ -48,23 +48,23 @@
     {
       "id": 4,
       "name": "Radio using the Sveriges Radio API",
-      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "description": "Radio app using the Sveriges Radio API. The goal with this project was to recreate a previous project I had made in vanilla Javascript to get a better understanding of how the code translates into React code. During this process I really wanted to focus on developing for mobile first and also maintainability.",
       "year": 2022,
-      "languages": "HTML / CSS / Javascript (React)",
+      "languages": "Javascript (React)",
       "linkToProject": "https://github.com/birkkensen/SR-radio-remake-but-in-react",
       "coverImage": "/images/cover/radio.png",
       "objectFit": "contain",
       "showcase": [
-        "/images/showcase/radio-comp/homeDesk.png",
-        "/images/showcase/radio-comp/channelsDesk.png"
+        "/images/showcase/radio-comp/onePhoneDark.png",
+        "/images/showcase/radio-comp/twoPhonesDark.png"
       ]
     },
     {
       "id": 5,
       "name": "Endless runner game made using Phaser 3",
-      "description": "Create a project of our own choosing, explore the code and integrate a little javascript. A secondary objective was to fetch posts from a data source e.g. JSON file or for example WordPress.",
+      "description": "This is one of my favourite group projects so far. Me and a classmate created an endless runner game using Phaser as the framework. It was fun because of how different it was from basic Javascript, we had to do a lot of debugging and error researching. Which I thought was a great learning experience ",
       "year": 2021,
-      "languages": "Javascript (Phaser 3)",
+      "languages": "Javascript (Phaser)",
       "linkToProject": "https://github.com/birkkensen/SpacePong",
       "coverImage": "/images/cover/sauteur.png",
       "objectFit": "cover",
@@ -77,8 +77,8 @@
     },
     {
       "id": 6,
-      "name": "Application task to Hyper Island",
-      "description": "This is the website I made when I applied to Hyper Island. ",
+      "name": "Application website to Hyper Island",
+      "description": "This is the website I made when I applied to Hyper Island. I made it as a part of my application task to provide proof I had knowledge in HTML / CSS as this was one of the requirements. During this project, my main focus was responsiveness.",
       "year": 2021,
       "languages": "HTML / CSS",
       "linkToProject": "https://github.com/birkkensen/HyperIslandApplicationTask",

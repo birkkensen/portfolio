@@ -1,21 +1,17 @@
 import React from "react";
-import s from "./links.module.css";
-const ContactLink = ({ name, color }) => {
-  const style = {
-    color: color,
-    backgroundColor: color ? "#fff" : "#000",
-  };
+import s from "./index.module.css";
+const ContactLink = () => {
   return (
-    <a className={s.regularLink} style={style} href="mailto:birk.kensen@gmail.com">
-      {name}
+    <a className={s.contact} href="mailto:birk.kensen@gmail.com">
+      Contact
     </a>
   );
 };
 
 const DownLoadLink = () => {
   return (
-    <a className={s.downLoadWrapper} href="/resume/CV.Birk.pdf" download>
-      <div className={s.downLoadLink}>Download CV</div>
+    <a className={s.wrapper} href="/resume/CV.Birk.pdf" download>
+      <div className={s.download}>Download CV</div>
       <div className={s.line}></div>
     </a>
   );

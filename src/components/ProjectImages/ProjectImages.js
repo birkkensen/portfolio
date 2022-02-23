@@ -1,6 +1,6 @@
-import s from "./projectImages.module.css";
+import s from "./index.module.css";
 const ProjectImages = ({ arr, name, objectFit }) => {
-  const imageCSS = {
+  const style = {
     objectFit: objectFit,
   };
 
@@ -10,7 +10,7 @@ const ProjectImages = ({ arr, name, objectFit }) => {
         arr.map((image, i) => {
           return (
             <div key={i} className={s.projectImage}>
-              <img style={imageCSS} src={image} alt={name} />
+              <img style={style} src={image} alt={name} />
             </div>
           );
         }, 0)}

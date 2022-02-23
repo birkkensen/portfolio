@@ -1,8 +1,8 @@
-import s from "./projectSection.module.css";
+import s from "./index.module.css";
 import projects from "../../projects.json";
 import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
-const ProjectSection = () => {
+const Projects = () => {
   return (
     <section className={s.wrapper}>
       <Title />
@@ -21,11 +21,11 @@ const ProjectSection = () => {
   );
 };
 
-export default ProjectSection;
+export default Projects;
 
 const Title = () => {
   const { ref, inView } = useInView({
-    threshold: 0.8,
+    threshold: 0.5,
     triggerOnce: true,
   });
   return (

@@ -1,11 +1,11 @@
-import { Navbar, IntroSection, ProjectSection, Footer, GoToTop } from "../components";
+import { Navbar, Profile, Projects, Footer, GoToTop } from "../components";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <IntroSection />
-      <ProjectSection />
+      <Profile />
+      <Projects />
       <Footer />
       <GoToTop />
     </>

@@ -1,22 +1,22 @@
-import s from "./introSection.module.css";
+import s from "./index.module.css";
 import { ContactLink, DownLoadLink } from "../Links/Links";
-const IntroSection = () => {
+const Profile = () => {
   return (
     <section className={s.wrapper}>
       <div className={s.textWrapper}>
-        <IntroTitle />
-        <IntroText />
+        <Title />
+        <Description />
         <div className={s.linksWrapper}>
           <ContactLink name="Contact" />
           <DownLoadLink />
         </div>
       </div>
-      <IntroImage />
+      <ProfileImage />
     </section>
   );
 };
 
-const IntroTitle = () => {
+const Title = () => {
   return (
     <h2 className={s.title}>
       Hello, I'm <br />
@@ -25,7 +25,7 @@ const IntroTitle = () => {
   );
 };
 
-const IntroText = () => {
+const Description = () => {
   return (
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -38,8 +38,8 @@ const IntroText = () => {
   );
 };
 
-const IntroImage = () => {
-  return <img className={s.image} src="/images/me/me.JPG" alt="Selfie" />;
+const ProfileImage = () => {
+  return <img className={s.image} src="/images/me/meOnABike.jpeg" alt="Selfie" />;
 };
 
-export default IntroSection;
+export default Profile;

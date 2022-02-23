@@ -9,7 +9,7 @@
 .projectImage img {
   width: 100%;
   border-radius: 16px;
-  box-shadow: 0 4px 8px 0 rgba(44, 62, 86, 0.2), 0 6px 10px 0 rgba(44, 62, 86, 0.19);
+  box-shadow: 0 2px 8px 0 rgba(44, 62, 86, 0.4);
 }
 @media screen and (min-width: 768px) {
   .projectImage {
