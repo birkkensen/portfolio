@@ -1,6 +1,7 @@
 import { Home, Project, NotFound } from "./pages";
 import "./index.css";
 import { Routes, Route } from "react-router-dom";
+
 const App = () => {
   return (
     <>
