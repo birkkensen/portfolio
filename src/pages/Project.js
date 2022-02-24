@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import FadeIn from "react-fade-in";
 import { Navbar, ProjectInfo, ProjectImages, Footer, GoToTop } from "../components";
 import projects from "../projects.json";
 const Project = () => {
@@ -6,7 +7,7 @@ const Project = () => {
   const project = projects.projects.filter((p) => p.id === parseInt(id));
   const images = project[0].showcase;
   return (
-    <>
+    <FadeIn transitionDuration="800">
       <Navbar />
       <ProjectInfo
         name={project[0].name}
@@ -25,7 +26,7 @@ const Project = () => {
       )}
       <Footer />
       <GoToTop />
-    </>
+    </FadeIn>
   );
 };
 
