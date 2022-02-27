@@ -34,6 +34,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.downLoadWrapper:hover .line {
+.wrapper:hover .line {
   width: 0%;
 }
