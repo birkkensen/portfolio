@@ -36,12 +36,7 @@ const Languages = ({ languages, link }) => {
     <p>
       {languages}
       <br />
-      <a
-        style={{ color: "#2b52d0", fontWeight: "bold" }}
-        href={link}
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a className={s.linkToProject} href={link} target="_blank" rel="noreferrer">
         Project on GitHub
       </a>
     </p>

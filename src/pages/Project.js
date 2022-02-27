@@ -7,26 +7,28 @@ const Project = () => {
   const project = projects.projects.filter((p) => p.id === parseInt(id));
   const images = project[0].showcase;
   return (
-    <FadeIn transitionDuration="800">
-      <Navbar />
-      <ProjectInfo
-        name={project[0].name}
-        description={project[0].description}
-        year={project[0].year}
-        languages={project[0].languages}
-        link={project[0].linkToProject}
-      />
-      {images && (
+    images && (
+      <FadeIn transitionDuration="800">
+        <Navbar />
+        <ProjectInfo
+          name={project[0].name}
+          description={project[0].description}
+          year={project[0].year}
+          languages={project[0].languages}
+          link={project[0].linkToProject}
+        />
+
         <ProjectImages
           arr={images}
           id={project[0].id}
           name={project[0].name}
           objectFit={project[0].objectFit}
         />
-      )}
-      <Footer />
-      <GoToTop />
-    </FadeIn>
+
+        <Footer />
+        <GoToTop />
+      </FadeIn>
+    )
   );
 };
 

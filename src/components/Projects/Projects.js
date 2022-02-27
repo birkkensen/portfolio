@@ -37,9 +37,6 @@ const Title = () => {
 };
 
 const Project = ({ id, name, image, objectFit }) => {
-  const imageCSS = {
-    objectFit: objectFit,
-  };
   const { ref, inView } = useInView({
     threshold: 0.2,
     triggerOnce: true,
@@ -52,7 +49,7 @@ const Project = ({ id, name, image, objectFit }) => {
       to={`project/${id}`}
     >
       <div className={s.overlayContainer}>
-        <img className={s.projectImage} style={imageCSS} src={image} alt={name} />
+        <img className={s.projectImage} style={{ objectFit: objectFit }} src={image} alt={name} />
         <div className={s.overlay}>
           <p className={s.pTitle}>{name}</p>
         </div>

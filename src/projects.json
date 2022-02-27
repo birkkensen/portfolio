@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Playlist visualisation using the Spotify API",
-      "description": "During one of our lessons, we had a guest lecturer from Spotify walking us through on how to work with their API to retrieve songs from a playlist and play samples of them. The website displays the album artwork, and when clicked it plays a sample of that song.",
+      "description": "During one of our lessons, we had a guest lecturer from Spotify walk us through on how to work with their API to retrieve songs from a playlist and play samples of them. The website displays the album artwork, and when clicked it plays a sample of that song.",
       "year": 2021,
       "languages": "HTML / CSS / Javascript (Node.js)",
       "linkToProject": "https://github.com/birkkensen/playlist-visualisation",
@@ -32,7 +32,7 @@
     {
       "id": 3,
       "name": "Food blog using the Wordpress API",
-      "description": "This was my first project at Hyper Island. I created a personal food blog using Wordpress as a CMS. Making it so I easily could add blog posts in the future, without having to open the project again.",
+      "description": "This was my first project at Hyper Island. I created a personal food blog using the Wordpress as a CMS and their REST API to fetch the content. Making it so I easily could add blog posts in the future, without having to open the code again.",
       "year": 2021,
       "languages": "HTML / SCSS / Javascript",
       "linkToProject": "https://github.com/birkkensen/RecipeBank",
