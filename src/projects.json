@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "name": "Playlist visualisation using the Spotify API",
+      "name": "Playlist visualisation using Spotify's API",
       "description": "During one of our lessons, we had a guest lecturer from Spotify walk us through on how to work with their API to retrieve songs from a playlist and play samples of them. The website displays the album artwork, and when clicked it plays a sample of that song.",
       "year": 2021,
       "languages": "HTML / CSS / Javascript (Node.js)",
@@ -16,7 +16,7 @@
     },
     {
       "id": 2,
-      "name": "Space Pong made using Phaser",
+      "name": "Like Pong, but in space.",
       "description": "When we were working on creating a game using Phaser, we had a lecture where we created the classic game Pong with some updated graphics. We made it as a multiplayer game but I wanted to be able to play it alone, so afterwards I rewrote some of the code and created my own computer bot to play against.",
       "year": 2021,
       "languages": "Javascript (Phaser)",
@@ -31,10 +31,10 @@
     },
     {
       "id": 3,
-      "name": "Food blog using the Wordpress API",
+      "name": "Food blog using Wordpress REST API",
       "description": "This was my first project at Hyper Island. I created a personal food blog using the Wordpress as a CMS and their REST API to fetch the content. Making it so I easily could add blog posts in the future, without having to open the code again.",
       "year": 2021,
-      "languages": "HTML / SCSS / Javascript",
+      "languages": "HTML / CSS (SCSS) / Javascript",
       "linkToProject": "https://github.com/birkkensen/RecipeBank",
       "coverImage": "/images/cover/blog2.png",
       "objectFit": "cover",
@@ -47,7 +47,7 @@
     },
     {
       "id": 4,
-      "name": "Radio using the Sveriges Radio API",
+      "name": "Radio app using Sveriges Radio API",
       "description": "Radio app using the Sveriges Radio API. The goal with this project was to recreate a previous project I had made in vanilla Javascript to get a better understanding of how the code translates into React code. During this process I really wanted to focus on developing for mobile first and also maintainability.",
       "year": 2022,
       "languages": "Javascript (React)",
@@ -61,7 +61,7 @@
     },
     {
       "id": 5,
-      "name": "Endless runner game made using Phaser 3",
+      "name": "Endless runner game",
       "description": "This is one of my favourite group projects so far. Me and a classmate created an endless runner game using Phaser as the framework. It was fun because of how different it was from basic Javascript, we had to do a lot of debugging and error researching. Which I thought was a great learning experience ",
       "year": 2021,
       "languages": "Javascript (Phaser)",

@@ -8,14 +8,15 @@
 
 .footer a {
   padding-left: 20px;
-  color: #2b52d0;
+  color: #2c3e56;
   font-weight: bold;
-  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .footer a:hover,
 a:focus {
-  color: #2b52d0cb;
+  opacity: 0.9;
 }
 
 @media screen and (min-width: 1280px) {

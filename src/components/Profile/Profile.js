@@ -28,15 +28,16 @@ const Title = () => {
 const Description = () => {
   return (
     <p>
-      I'm currently studying the Frontend Developer program at Hyper Island in Stockholm. So far
-      I've done everything from creating a simple web page in just HTML / CSS, to making web
-      applications using React (like this website). I've also worked a lot with different APIs,
-      Node.js and Phaser. I'm looking forward to learning and contributing a lot more during an
-      internship.
+      I'm currently studying the Frontend Developer program at Hyper Island in Stockholm. Now, I'm
+      looking for an internship, starting in September this year. So far I've done everything from
+      creating a simple web page in just HTML / CSS, to making web applications using React (like
+      this website). I've also worked a lot with different APIs, Node.js and Phaser. I'm looking
+      forward to learning and contributing a lot more during an internship.
       <br />
       <br />I don't know what my career goal is. All I know is that I'm 100% sure it has to do with
       some sort of programming. Right now I'm still exploring all the possibilities code has to
-      offer, all the different ways I can express my creativity with it.
+      offer, all the different ways I can express my creativity with it. Don't hesitate to contact
+      me if you have any questions. :)
     </p>
   );
 };
