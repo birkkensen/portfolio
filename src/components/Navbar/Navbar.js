@@ -10,11 +10,11 @@ const Navbar = () => {
         birk
       </Link>
       <div>
-        <a className={s.socialMedia} href={linkedin} rel="noreferrer" target="_blank">
-          <ImLinkedin />
-        </a>
         <a className={s.socialMedia} href={github} rel="noreferrer" target="_blank">
           <ImGithub />
+        </a>
+        <a className={s.socialMedia} href={linkedin} rel="noreferrer" target="_blank">
+          <ImLinkedin />
         </a>
       </div>
     </nav>

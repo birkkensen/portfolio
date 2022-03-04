@@ -1,15 +1,15 @@
 import React from "react";
 import s from "./index.module.css";
-const ProjectInfo = ({ name, year, languages, description, link }) => {
+const ProjectInfo = ({ name, timeSpent, languages, description, link }) => {
   return (
     <section className={s.projectInfoWrapper}>
       <div>
         <div className={s.line}></div>
-        <ProjectName name={name} year={year} />
+        <NameAndLink name={name} link={link} />
       </div>
       <div>
         <div className={s.line}></div>
-        <Languages languages={languages} link={link} />
+        <LanguageAndTime languages={languages} timeSpent={timeSpent} />
       </div>
       <div>
         <div className={s.line}></div>
@@ -21,24 +21,24 @@ const ProjectInfo = ({ name, year, languages, description, link }) => {
 
 export default ProjectInfo;
 
-const ProjectName = ({ name, year }) => {
+const NameAndLink = ({ name, link }) => {
   return (
     <p>
       {name}
       <br />
-      {year}
+      <a className={s.linkToProject} href={link} target="_blank" rel="noreferrer">
+        Project on GitHub
+      </a>
     </p>
   );
 };
 
-const Languages = ({ languages, link }) => {
+const LanguageAndTime = ({ languages, timeSpent }) => {
   return (
     <p>
       {languages}
       <br />
-      <a className={s.linkToProject} href={link} target="_blank" rel="noreferrer">
-        Project on GitHub
-      </a>
+      {timeSpent}
     </p>
   );
 };

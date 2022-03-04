@@ -13,7 +13,7 @@ const Project = () => {
         <ProjectInfo
           name={project[0].name}
           description={project[0].description}
-          year={project[0].year}
+          timeSpent={project[0].timeSpent}
           languages={project[0].languages}
           link={project[0].linkToProject}
         />
