@@ -31,8 +31,9 @@ const Description = () => {
       I'm currently studying the Frontend Developer program at Hyper Island in Stockholm. Now, I'm
       looking for an internship, starting in September this year. So far I've done everything from
       creating a simple web page in just HTML / CSS, to making web applications using React (like
-      this website). I've also worked a lot with different APIs, Node.js and Phaser. I'm looking
-      forward to learning and contributing a lot more during an internship.
+      this website - PS. I'm now working on re-writing my portfolio using NextJS, Typescript and
+      Tailwind, for practice:)). I have also worked a lot with different APIs, Node.js and Phaser.
+      I'm looking forward to learning and contributing a lot more during an internship.
       <br />
       <br />I don't know what my career goal is. All I know is that I'm 100% sure it has to do with
       some sort of programming. Right now I'm still exploring all the possibilities code has to
